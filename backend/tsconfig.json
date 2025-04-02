@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2016" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    // Module would be set to commonjs if we are using nodejs or esnext if we are using typescript
+    "module": "CommonJS",
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+    // "preserveSymlinks": true,                         /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */
+    "noImplicitAny": false,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+
+    /* Type Checking */
+    "strict": true /* Enable all strict type-checking options. */,
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+    "outDir": "dist" /* Redirect output structure to the directory. */
+  }
+}

@@ -9,7 +9,7 @@ app.use(cors());
 
 mongoose
   .connect(
-    "mongodb+srv://faisaal8898:Itft6CjJmPrkM1nM@cluster0.bi9vkxz.mongodb.net/resume_builder",
+    "mongodb+srv://sanjanakazisupti:D1yqCrFpW6Ac7Tou@cluster0.i9aqb.mongodb.net/Resume_builder",
   )
   .then(() => console.log("✅ Connected to MongoDB"))
   .catch((err) => console.error("❌ MongoDB connection error:", err));

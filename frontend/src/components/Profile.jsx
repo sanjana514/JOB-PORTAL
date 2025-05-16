@@ -77,6 +77,13 @@ const Profile = () => {
             <span>NA</span>
           )}
         </div>
+        <div className="flex  items-center ">
+  <Button
+    class="bg-gray-900 text-white text-sm font-small px-3 py-[2px] rounded-full mt-2 ml-1 hover:text-gray-900 hover:bg-gray-300">
+    Build Resume
+  </Button>
+      </div>
+
       </div>
       <div className="max-w-4xl mx-auto bg-white rounded-2xl">
         <h1 className="font-bold text-lg my-5">Applied Jobs</h1>

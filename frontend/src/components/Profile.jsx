@@ -80,7 +80,7 @@ const Profile = () => {
         <div className="flex  items-center ">
   <Button
     class="bg-gray-900 text-white text-sm font-small px-3 py-[2px] rounded-full mt-2 ml-1 hover:text-gray-900 hover:bg-gray-300">
-    Build Resume
+    <a href="http://127.0.0.1:5500/DP/frontend/resume.html">Build Resume</a>
   </Button>
       </div>
 
